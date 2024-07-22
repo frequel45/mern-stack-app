@@ -14,8 +14,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-
-
   },
   "eslintConfig": {
     "extends": [
@@ -37,7 +35,10 @@
   },
   "description": "This is the frontend of a MERN stack e-commerce application. It is built using React.js and communicates with the backend server to fetch data and manage the shopping cart.",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  },
   "author": "",
   "license": "ISC"
 }
